@@ -1,3 +1,5 @@
+//program to reverse a number
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -13,5 +15,7 @@ int main(){
             rev=rev*10+x%10;
             x=x/10;
         }
-    cout<<"Reverse of "<<y<<" is "<<rev;    
+    cout<<"Reverse of "<<y<<" is "<<rev;  
+
+    return 0;  
 }
